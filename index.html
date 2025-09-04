@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio – Nombre del Estudiante</title>
+</head>
+<body>
+  
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#informacion-basica">Información básica</a></li>
+      <li><a href="#formacion-academica">Formación académica</a></li>
+      <li><a href="#contactenos">Contáctenos</a></li>
+      <li><a href="#redes-sociales">Redes sociales</a></li>
+    </ul>
+  </nav>
+
+  
+  <header id="inicio">
+    <h1>Nombre Completo del Estudiante</h1>
+    <figure>
+      <img src="img/Imagen de WhatsApp 2025-09-03 a las 19.14.26_2af02cca.jpg" alt="Mi foto de perfil" width="220" />
+      <figcaption>Fotografía personal</figcaption>
+    </figure>
+    <p><em>Maruel Pacheco Herazo</em></p>
+    <p>"Mi magia es no rendirme"</p>
+  </header>
+
+  <main>
+    
+    <section id="informacion-basica">
+      <h2>Información básica</h2>
+      <ul>
+        <li><strong>Nombre completo:</strong> Maruel Pacheco</li>
+        <li><strong>Fecha y lugar de nacimiento:</strong> 11/12/2003 – Chinu-Cordoba, Colombia</li>
+        <li><strong>Dirección de residencia:</strong> Calle 02-20, Chinu</li>
+        <li><strong>Documento de Identidad:</strong> 1064606024</li>
+        <li><strong>Teléfono:</strong> +57 300 610 6148</li>
+        <li><strong>Correo electrónico:</strong> maruelpacheco2003@gmail.com</li>
+      </ul>
+      <p>
+        Soy una persona que le gusta ser curioso, me gusta la tecnología y aprender cosas nuevas.
+      </p>
+    </section>
+
+    
+    <section id="formacion-academica">
+      <h2>Formación académica</h2>
+      <h3>Estudios realizados</h3>
+      <ul>
+        <li>
+          <strong>Institucion Educativa Divino Niño de Tierra Grata</strong> — Basica Primaria (2009–2014)
+        </li>
+        <li>
+          <strong>Institucion Educativa Divino Niño de Tierra Grata</strong> — Bachiller Académico (2015–2025)
+        </li>
+      </ul>
+
+      <h3>Formación en curso</h3>
+      <p>Actualmente cursando VII semestre de Ingeniería de Sistemas.</p>
+
+      <h3>Cursos, certificaciones o capacitaciones</h3>
+      <ul>
+        <li>Curso de HTML y CSS – freeCodeCamp (2025)</li>
+        <li>marketing – SENA (2019)</li>
+      </ul>
+
+      <h3>Competencias y habilidades</h3>
+      <ul>
+<li>Programación: Java</li>
+<progress value="70" max="100"></progress>
+<li>Desarrollo web: HTML, CSS</li>
+<progress value="30" max="100"></progress>
+<li>Bases de datos: MySQL</li>
+<progress value="70" max="100"></progress>
+<li>Control de versiones: Git</li>
+<progress value="30" max="100"></progress>
+<li>Trabajo en equipo y comunicación</li>
+<progress value="90" max="100"></progress>
+</ul>
+
+      <h3>Idiomas</h3>
+      <ul>
+        <li>Español — Nativo</li>
+        <li>Inglés — Basico</li>
+      </ul>
+    </section>
+
+   
+    <section id="contactenos">
+      <h2>Contáctenos</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="nombre">Nombre completo</label><br />
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellidos" required />
+        </p>
+
+        <p>
+          <label for="email">Correo electrónico</label><br />
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+        </p>
+
+        <p>
+          <label for="telefono">Número de teléfono</label><br />
+          <input type="tel" id="telefono" name="telefono" placeholder="3001234567" />
+        </p>
+
+        <p>
+          <label for="fecha-nacimiento">Fecha de nacimiento</label><br />
+          <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" />
+        </p>
+
+        <p>
+          <label for="hora">Horario disponible para contacto</label><br />
+          <input type="time" id="hora" name="hora" />
+        </p>
+
+        <p>
+          <label for="edad">Edad</label><br />
+          <input type="number" id="edad" name="edad" min="0" max="120" />
+        </p>
+
+        <fieldset>
+          <legend>Género</legend>
+          <label>
+            <input type="radio" name="genero" value="masculino" /> Masculino
+          </label>
+          <label>
+            <input type="radio" name="genero" value="femenino" /> Femenino
+          </label>
+          <label>
+            <input type="radio" name="genero" value="otro" /> Otro
+          </label>
+        </fieldset>
+
+        <p>
+          <label for="area-interes">Área de interés</label><br />
+          <select id="area-interes" name="area-interes">
+            <option value="">Selecciona una opción</option>
+            <option>Desarrollo Web</option>
+            <option>Bases de Datos</option>
+            <option>Redes</option>
+            <option>Inteligencia Artificial</option>
+            <option>Otro</option>
+          </select>
+        </p>
+
+        <fieldset>
+          <legend>Preferencia de contacto</legend>
+          <label>
+            <input type="checkbox" name="preferencia" value="email" /> Email
+          </label>
+          <label>
+            <input type="checkbox" name="preferencia" value="telefono" /> Teléfono
+          </label>
+          <label>
+            <input type="checkbox" name="preferencia" value="whatsapp" /> WhatsApp
+          </label>
+        </fieldset>
+
+        <p>
+          <label for="archivo">Adjuntar archivo (opcional)</label><br />
+          <input type="file" id="archivo" name="archivo" />
+        </p>
+
+        <p>
+          <label for="url">URL personal o portafolio</label><br />
+          <input type="url" id="url" name="url" placeholder="https://miportafolio.com" />
+        </p>
+
+        <p>
+          <label for="mensaje">Mensaje</label><br />
+          <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..."></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+ 
+  <footer id="redes-sociales">
+    <h2>Redes sociales</h2>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/maruel-pacheco-b71286354/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Maruel20" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=61576741794848" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/maruelpacheco" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </li>
+      
+    </ul>
+
+    <p>© 2025 - Portafolio creado por Nombre del Estudiante</p>
+  </footer>
+</body>
+</html>
